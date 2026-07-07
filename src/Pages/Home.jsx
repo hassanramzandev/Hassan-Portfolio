@@ -9,7 +9,7 @@ import ProfilePic from "../images/Profile.jpeg";
 import PageTransition from "../ComponentsTemp/PageTransition";
 
 // Import Typing Component
-import TypingText from "../Components/TypingText";
+import TypingText from "../ComponentsTemp/TypingText";
 
 function Home() {
 
