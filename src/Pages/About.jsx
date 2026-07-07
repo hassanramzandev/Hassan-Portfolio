@@ -27,7 +27,7 @@ function About() {
       <div className="about-card">
         <h2>UI / UX Designer</h2>
         <p>
-          I design clean and modern user interfaces using Figma and follow UI/UX principles
+          I design clean and modern user interfaces & follow UI/UX principles
           for better user experience.
         </p>
       </div>
