@@ -5,7 +5,7 @@
 // ======================================================
 
 import { Skills } from "../Data/Skills";
-import PageTransition from "../Components/PageTransition";
+import PageTransition from "../ComponentsTemp/PageTransition";
 function SkillsPage() {
   return (
     <PageTransition>

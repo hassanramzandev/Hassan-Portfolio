@@ -3,7 +3,7 @@
 // Folder    : src/pages
 // ============================================================
 
-import PageTransition from "../Components/PageTransition";
+import PageTransition from "../ComponentsTemp/PageTransition";
 import {
   FaEnvelope,
   FaPaperPlane,

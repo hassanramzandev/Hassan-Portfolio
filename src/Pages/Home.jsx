@@ -6,7 +6,7 @@
 
 // Import Profile Image
 import ProfilePic from "../images/Profile.jpeg";
-import PageTransition from "../Components/PageTransition";
+import PageTransition from "../ComponentsTemp/PageTransition";
 
 // Import Typing Component
 import TypingText from "../Components/TypingText";

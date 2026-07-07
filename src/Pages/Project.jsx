@@ -5,7 +5,7 @@
 // ============================================================
 
 import { projects } from "../Data/projects";
-import PageTransition from "../Components/PageTransition";
+import PageTransition from "../ComponentsTemp/PageTransition";
 
 function Project() {
   return (

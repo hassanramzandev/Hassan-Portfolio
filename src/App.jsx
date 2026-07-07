@@ -1,12 +1,12 @@
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+import Navbar from "./ComponentsTemp/Navbar";
+import Footer from "./ComponentsTemp/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Skills from "./Pages/Skills";
 import Projects from "./Pages/Project";
 import Contact from "./Pages/Contact";
-import FloatingButton from "./Components/FloatingButton";
+import FloatingButton from "./ComponentsTemp/FloatingButton";
 
 // Framer Motion aur React Router hooks
 import { AnimatePresence } from "framer-motion";
