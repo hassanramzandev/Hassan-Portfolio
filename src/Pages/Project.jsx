@@ -4,7 +4,7 @@
 // Purpose   : Display Project Cards
 // ============================================================
 
-import { projects } from "../Data/projects";
+import { projects } from "../Data/Projects";
 import PageTransition from "../ComponentsTemp/PageTransition";
 
 function Project() {
