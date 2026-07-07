@@ -80,7 +80,7 @@ function Navbar() {
         {infoOpen && (
           <div className="personal-dropdown">
 
-            <a href="mailto:youremail@gmail.com">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hassanramzan319040@gmail.com">
               <span className="circle-icon">
                 <FaEnvelope />
               </span>
@@ -88,7 +88,7 @@ function Navbar() {
             </a>
 
             <a
-              href="https://wa.me/923001234567"
+              href="https://wa.me/92706471437"
               target="_blank"
               rel="noreferrer"
             >
@@ -98,7 +98,7 @@ function Navbar() {
               WhatsApp
             </a>
 
-            <a href="tel:+923001234567">
+            <a href="tel:+92706471437">
               <span className="circle-icon">
                 <FaPhoneAlt />
               </span>
@@ -106,7 +106,7 @@ function Navbar() {
             </a>
 
             <a
-              href="https://maps.google.com/?q=Karachi"
+              href="https://www.google.com/maps?q=Kot+Addu"
               target="_blank"
               rel="noreferrer"
             >

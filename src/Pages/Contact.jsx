@@ -58,7 +58,7 @@ function Contact() {
         <div className="mobile-contact-links">
 
           <a
-            href="mailto:hassanramzan319040@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=yourname@gmail.com"
             className="mobile-link"
           >
             <FaEnvelope />
