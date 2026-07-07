@@ -12,9 +12,6 @@ html,body{
 section{
     scroll-margin-top: 90px;
 }
-/* =========================
-   GLOBAL DARK THEME
-========================= */
 
 body {
     margin: 0;
@@ -39,11 +36,6 @@ p {
     color: #cbd5e1;
 }
 
-
-/* =========================
-   FOOTER DARK FIX
-========================= */
-
 footer {
     background: #0b1220;
     color: #ffffff;
@@ -53,22 +45,14 @@ footer {
     border-top: 1px solid #1f2937;
 }
 
-/* =========================
-   LINKS
-========================= */
-
+/* LINKS */
 a {
     color: #60a5fa;
     text-decoration: none;
 }
-
 a:hover {
     color: #3b82f6;
 }
-
-/* =========================
-   CARDS (Glass / Boxes)
-========================= */
 
 .glass-card {
     background: rgba(255, 255, 255, 0.05);
@@ -93,7 +77,6 @@ a:hover {
     font-size:15px;
     transition:.3s;
 }
-
 .personal-dropdown{
     position:absolute;
     top:60px;
@@ -106,7 +89,6 @@ a:hover {
     box-shadow:0 10px 25px rgba(0,0,0,.3);
     z-index:1000;
 }
-
 .personal-dropdown a,
 .dropdown-btn{
     width:100%;
@@ -123,12 +105,10 @@ a:hover {
     text-align:left;
     transition:.3s;
 }
-
 .personal-dropdown a:hover,
 .dropdown-btn:hover{
     background:#1f2937;
 }
-
 .circle-icon{
     width:38px;
     height:38px;
@@ -141,10 +121,6 @@ a:hover {
     flex-shrink:0;
     font-size:16px;
 }
-/* =========================
-   NAV RIGHT
-========================= */
-
 .nav-right{
     position: relative;
     display: flex;
@@ -153,12 +129,9 @@ a:hover {
     flex-shrink: 0;
 }
 
-/* =========================
-   RESPONSIVE (768px)
-========================= */
+/* RESPONSIVE (768px)*/
 
 @media (max-width:768px){
-
     .nav-right{
         display:flex;
         align-items:center;
@@ -191,9 +164,6 @@ a:hover {
         font-size:14px;
     }
 }
-/* ==========================================================
-   Responsive Navbar
-========================================================== */
 
 .navbar{
     display:flex;
@@ -210,56 +180,37 @@ a:hover {
     z-index:1000;
     margin-top: 10px;
 }
-
 .logo{
-
     font-size:28px;
-
     font-weight:bold;
     padding-left: 10px;
 }
 
 /* Navigation */
-
 .nav-links{
-
     display:flex;
     gap:20px !important;
- margin-left: 10px;
+   margin-left: 10px;
     list-style:none;
 
 }
-
 .nav-links li a{
-
     color:white;
-
     text-decoration:none;
-
     font-size:18px;
-
     transition:.3s;
-
 }
-
 .nav-links li a:hover{
-
     color:#38bdf8;
-
 }
 
 /* Active Link */
-
 .nav-links li a.active{
-
     color:#38bdf8;
-
     font-weight:bold;
-
 }
 
 /* Right Side */
-
 .nav-right{
 
     display:flex;
@@ -270,19 +221,9 @@ a:hover {
 
 }
 
-/* Hamburger */
-
-.menu-icon{
-
-    display:none;
-
-    cursor:pointer;
-
-}
 /* =========================
    ABOUT SECTION
 ========================= */
-
 .about {
   width: 100%;
   min-height: 100vh;
@@ -310,60 +251,38 @@ a:hover {
   margin-bottom: 50px;
 }
 
-/* =========================
-   GRID (2 IN ONE ROW)
-========================
-/* =========================
-   CARD STYLE
-========================= */
-
 .about-card {
   background: #0d1b2a;
   border: 1px solid #1d3557; /* border visible */
   border-radius: 14px;
-
   padding: 25px 30px;
-
   transition: 0.3s ease;
   cursor: pointer;
 }
-
 /* hover effect */
 .about-card:hover {
   transform: translateY(-6px);
   border-color: #3b82f6;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
-
 /* title */
 .about-card h2 {
   color:#cbd5e1;
   margin-bottom: 10px;
 }
-
 /* text */
 .about-card p {
   color: #cbd5e1;
   line-height: 1.6;
 }
-
 /* highlight card */
 .about-card.highlight {
   border: 1px solid #3b82f6;
   background: linear-gradient(135deg, #0d1b2a, #0a2540);
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
-/* =====================================
-   RESPONSIVE (768px)
-===================================== */
-
+/* RESPONSIVE*/
 @media (max-width:768px){
-
-    /* Navbar */
-
     .navbar{
         display:flex;
         justify-content:space-between;
@@ -385,7 +304,6 @@ a:hover {
     }
 
     /* Navigation Show */
-
     .nav-links{
         display:flex;
         width: 100% !important;
@@ -398,21 +316,17 @@ a:hover {
         flex:1;
         flex-wrap:nowrap;
     }
-
     .nav-links li a{
         font-size:15px;
         white-space:nowrap;
     }
 
     /* Personal Button Show */
-
     .nav-right{
         display:flex;
         align-items:center;
         gap:10px;
     }
-
-    /* About */
 
     .about{
         width:95%;
@@ -451,23 +365,17 @@ a:hover {
   padding: 80px 50px;
   border: 1px solid #1e4479 ;
   border-radius: 18px;
-    max-width: 1100px;
-    
+    max-width: 1100px;    
     margin: 80px auto 40px;
     padding: 40px 20px;
     text-align: center;
 }
-
 .skills h1 {
   text-align: center;
   color: #fff; /* same white as projects heading */
   font-size: 2.5rem;
   margin-bottom: 50px;
 }
-
-/* =========================
-   SKILLS GRID
-========================= */
 
 .skill-container {
   display: grid;
@@ -476,10 +384,6 @@ a:hover {
   max-width: 1000px;
   margin: auto;
 }
-
-/* =========================
-   SKILL CARD (PROJECT STYLE MATCH)
-========================= */
 
 .skill-card {
   background: #0d1b2a; /* same card color as projects */
@@ -512,16 +416,9 @@ a:hover {
   font-weight: 500;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
-
-/* =====================================
-   SKILLS RESPONSIVE
-===================================== */
-
+/* ================
+   RESPONSIVe */
 @media (max-width:768px){
-
     .skills{
         width:95%;
         margin:60px auto 30px;
@@ -529,19 +426,16 @@ a:hover {
         border-radius:15px;
         overflow:hidden;
     }
-
     .skills h1{
         font-size:2rem;
         margin-bottom:35px;
     }
-
     .skill-container{
         display:grid;
         grid-template-columns:repeat(2,1fr);
         gap:15px;
         width:100%;
     }
-
     .skill-card{
         width:100%;
         height:140px;
@@ -553,7 +447,6 @@ a:hover {
         font-size:35px;
         margin-bottom:10px;
     }
-
     .skill-card h3{
         font-size:15px;
         text-align:center;
@@ -563,7 +456,6 @@ a:hover {
 /* ==========================================================
    Hero Section
 ========================================================== */
-
 .hero{
     display:flex;
     justify-content:space-between;
@@ -593,83 +485,47 @@ a:hover {
 }
 
 .hero-left h3{
-
     color:#38bdf8;
-
     margin-bottom:15px;
-
     font-size:24px;
-
 }
-
 .hero-left h1{
-
     font-size:60px;
-
     margin-bottom:15px;
-
 }
-
 .hero-left h2{
-
     color:#facc15;
-
     margin-bottom:20px;
-
     min-height:40px;
-
 }
-
 .hero-left p{
-
     font-size:18px;
-
     line-height:1.8;
-
     color:#d1d5db;
-
     margin-bottom:30px;
-
 }
 /* Right Side */
-
 .hero-right{
-
     flex:1;
-
     display:flex;
-
     justify-content:center;
-
 }
-
 .hero-right img{
     width:340px;
     height:340px;
     object-fit:cover;
     margin-top: -200px;
     border-radius: 80%;
-
     border:2px solid white;
-
     box-shadow:0 15px 40px rgba(0,0,0,.4);
-
 }
-
-
 /* Typing Cursor */
-
 .hero-left span{
-
     color:#38bdf8;
-
     animation:blink .8s infinite;
-
 }
 /* ================ Small Mobile ================= */
-
 @media (max-width: 480px) {
-
   .hero {
     padding: 30px 15px;
     gap: 25px;
@@ -679,15 +535,12 @@ a:hover {
   .hero-left h1 {
     font-size: 30px;
   }
-
   .hero-left h2 {
     font-size: 19px;
   }
-
   .hero-left p {
     font-size: 15px;
   }
-
   .hero-right img {
     width: 180px;
     height: 180px;
@@ -707,100 +560,51 @@ a:hover {
     }
 
 }
-/* ===================================================
-   Glass Card
-=================================================== */
 
 .glass-card{
-
     width:400px;
-
     margin:40px auto;
-
     padding:30px;
-
     border-radius:20px;
-
     background:rgba(255,255,255,.15);
-
     backdrop-filter:blur(12px);
-
     border:1px solid rgba(255,255,255,.2);
-
     box-shadow:0 10px 30px rgba(0,0,0,.25);
-
     transition:.4s;
-
 }
-
 .glass-card:hover{
-
     transform:translateY(-10px);
-
 }
 /* Floating Buttons */
 
 .whatsapp-btn{
-
     position:fixed;
-
     right:25px;
-
     bottom:90px;
-
     width:60px;
-
     height:60px;
-
     border:none;
-
     border-radius:50%;
-
     background:#25D366;
-
     color:white;
-
     font-size:26px;
-
     cursor:pointer;
-
     box-shadow:0 10px 25px rgba(0,0,0,.25);
-
 }
-
 .top-btn{
-
     position:fixed;
-
     right:25px;
-
     bottom:20px;
-
     width:60px;
-
     height:60px;
-
     border:none;
-
     border-radius:50%;
-
     background:#2563eb;
-
     color:white;
-
     font-size:24px;
-
     cursor:pointer;
-
     box-shadow:0 10px 25px rgba(0,0,0,.25);
-
 }
-/* =========================
-   CONTACT SECTION
-========================= */
-/* ==========================================
-   CONTACT SECTION
-========================================== */
 .contact{
     width:95%;
     max-width:1200px;
@@ -834,14 +638,12 @@ a:hover {
 }
 
 /* Contact Cards */
-
 .contact-info{
     display: none !important;
     grid-template-columns:repeat(3,1fr);
     gap:25px;
     margin-bottom:50px;
 }
-
 .info-card{
     background:#0d1b2a;
     border:1px solid #1d3557;
@@ -882,13 +684,11 @@ a:hover {
 }
 
 /* Hide Mobile Quick Links */
-
 .mobile-contact-links{
     display:none ;
 }
 
 /* Form */
-
 .contact-title{
     color:#fff;
     font-size:2rem;
@@ -966,9 +766,6 @@ a:hover {
     border-radius:15px;
     overflow:hidden;
 }
-/* ==========================================
-   MOBILE RESPONSIVE
-========================================== */
 
 @media (max-width:768px){
 
@@ -1071,41 +868,31 @@ a:hover {
     }
 }
 
-/* ==========================================
-   SMALL MOBILE
-========================================== */
+/* Small mobile*/
 
 @media (max-width:480px){
-
     .contact{
         width:96%;
         padding:25px 15px;
     }
-
     .contact h1{
         font-size:1.8rem;
     }
-
     .mobile-contact-links{
         gap:10px;
     }
-
     .mobile-link{
         padding:12px 8px;
     }
-
     .mobile-link svg{
         font-size:20px;
     }
-
     .mobile-link span{
         font-size:11px;
     }
-
     .contact-title{
         font-size:1.4rem;
     }
-
     .contact-form input,
     .contact-form textarea{
         padding:12px;
@@ -1122,41 +909,22 @@ a:hover {
     }
 }
 @media(max-width:768px){
-
 .hero{
-
     flex-direction:column-reverse;
-
     text-align:center;
-
 }
-
 .hero-left h1{
-
     font-size:40px;
-
 }
-
 .hero-right img{
-
     width:250px;
-
     height:250px;
-
 }
-
 .hero-buttons{
-
     justify-content:center;
-
     flex-wrap:wrap;
-
 }
-
 }
-/* ==========================================================
-   FOOTER
-========================================================== */
 
 footer {
     width: 100%;
@@ -1167,14 +935,12 @@ footer {
     padding: 15px 20px 20px;   /* Top Right/Left Bottom */
     border-top: 1px solid #2d3748;
 }
-
 footer p {
     margin: 0 0 15px;
     font-size: 1rem;
     color: #d1d5db;
     letter-spacing: 0.5px;
 }
-
 .footer-links {
     display: flex;
     justify-content: center;
@@ -1209,10 +975,7 @@ footer small {
     color: #9ca3af;
 }
 
-/* ==========================
-   Tablet
-========================== */
-
+/* TABLET*/
 @media (max-width: 768px) {
 
     footer {
@@ -1223,27 +986,22 @@ footer small {
     footer p {
         font-size: 15px;
     }
-
     .footer-links {
         gap: 18px;
         margin-bottom: 14px;
     }
-
     .footer-links a {
         width: 42px;
         height: 42px;
         font-size: 20px;
     }
-
     footer small {
         font-size: 13px;
     }
 }
-
 /* ==========================
    Mobile
 ========================== */
-
 @media (max-width: 480px) {
 
     footer {
@@ -1274,7 +1032,6 @@ footer small {
 /* =========================
    ABOUT SECTION
 ========================= */
-
 .about {
     max-width: 1100px;
     margin: 80px auto 40px;
@@ -1349,34 +1106,9 @@ footer small {
         padding: 22px;
     }
 }
-
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 480px) {
-
-    .about {
-        margin: 50px auto 25px;
-        padding: 25px 12px;
-    }
-
-    .about h1 {
-        font-size: 1.8rem;
-    }
-
-    .glass-card {
-        padding: 18px;
-    }
-
-    .glass-card p {
-        font-size: 0.95rem;
-    }
-}
 /* =========================
    PROJECTS SECTION
 ========================= */
-
 .projects {
  width: 100%;
   min-height: 100vh;
@@ -1409,11 +1141,9 @@ footer small {
   grid-template-columns: repeat(3, 1fr); /* 👈 3 in one line */
   gap: 25px;
 }
-
 /* =========================
    CARD STYLE
 ========================= */
-
 .project-card {
   background: #0d1b2a;
   border: 1px solid #1d3557;
@@ -1421,18 +1151,15 @@ footer small {
   padding: 20px;
   transition: 0.3s;
 }
-
 .project-card:hover {
   transform: translateY(-6px);
   border-color: #3b82f6;
 }
-
 .project-card h2 {
   color: #fff;
   font-size: 1.3rem;
   margin-bottom: 10px;
 }
-
 .project-card p {
   color: #cbd5e1;
   font-size: 0.95rem;
@@ -1442,14 +1169,12 @@ footer small {
 /* =========================
    TECH TAGS
 ========================= */
-
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 15px;
 }
-
 .tech {
   background: #12263f;
   color: #60a5fa;
@@ -1458,12 +1183,7 @@ footer small {
   border-radius: 20px;
   font-size: 0.8rem;
 }
-
-/* =========================
-   RESPONSIVE
-========================= */
-
-/* Tablet → 2 cards */
+/*TABLET*/
 @media (max-width: 992px) {
   .projects-container {
     grid-template-columns: repeat(2, 1fr);
