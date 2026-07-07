@@ -116,16 +116,14 @@ function Navbar() {
               Location
             </a>
 
-            <button
-              className="dropdown-btn"
-              onClick={downloadCV}
-            >
-              <span className="circle-icon">
-                <FaFilePdf />
-              </span>
-              Download CV
-            </button>
-
+        <a //
+      // href="/Hassan-CV.pdf"
+     // download="Hassan-Ramzan-CV.pdf"
+  className="dropdown-btn"
+      >
+  <FaFilePdf />
+  <span style={{ marginLeft: "8px" }}>Download CV</span>
+</a>
           </div>
         )}
 

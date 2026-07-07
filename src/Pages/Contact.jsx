@@ -76,7 +76,7 @@ function Contact() {
           </a>
 
           <a
-            href="/Hassan Ramzan _ CV.pdf"
+           // href="/Hassan Ramzan _ CV.pdf"
             download
             className="mobile-link"
           >
