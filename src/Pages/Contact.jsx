@@ -58,7 +58,7 @@ function Contact() {
         <div className="mobile-contact-links">
 
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=yourname@gmail.com"
+            href="https://mail.google.com/mail/?view=hassanramzan319040@gmail.com"
             className="mobile-link"
           >
             <FaEnvelope />
@@ -146,7 +146,7 @@ function Contact() {
 
         <iframe
           title="Location"
-          src="https://www.google.com/maps?q=Faisalabad&output=embed"
+          src="https://mail.google.com/mail/?view=cm&fs=1&to=yourname@gmail.com"
           loading="lazy"
         ></iframe>
 
